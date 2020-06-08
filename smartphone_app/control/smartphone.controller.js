@@ -1,4 +1,3 @@
-var Smartphone = require('../model/smartphone.model');
 const express = require('express');
 const router = express.Router();
 const bodyParser = require('body-parser');
