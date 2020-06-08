@@ -1,0 +1,39 @@
+{
+  "name": "create",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "jest --watchAll",
+    "dev": " nodemon app.js "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajax": "0.0.4",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "document": "^0.4.7",
+    "express": "^4.17.1",
+    "flash": "^1.1.0",
+    "http": "0.0.1-security",
+    "json-server": "^0.16.1",
+    "koa": "^2.11.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.8",
+    "mongoose": "^5.9.13",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "parse": "^2.13.0",
+    "window": "^4.2.7",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^26.0.1",
+    "superagent": "^5.2.2",
+    "supertest": "^4.0.2"
+  },
+  "description": ""
+}
