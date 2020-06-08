@@ -6,7 +6,7 @@ const app = express.Router();
 router.use(bodyParser.urlencoded({extended: false}));
 router.use(bodyParser.json());
 
-// Colocar controller que ainda não foi criado
+// requisições controller
 const smartphone_controller = require("../control/smartphone.controller.js");
 const view_controller =  require("../control/view.controller.js");
 
